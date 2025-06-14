@@ -58,14 +58,14 @@ async function getAstronomy() {
 
         document.getElementById('result').innerHTML = `
         <div id='resultContent'>
-            <p>${city}</p>
+            <h1>${city}</h1>
             <div id="riseset">
                 <div id="sunrise"> 
-                    <h3> Sunrise </h3> <p>${sunrise}</p> 
+                    <h3> Sunrise </h3> <h2>${sunrise}</h2> 
                 </div>
 
                 <div id="sunset"> 
-                    <h3>Sunrise</h3> <p>${sunset}</p> 
+                    <h3>Sunset</h3> <h2>${sunset}</h2> 
                 </div>
             </div>
         </div>
